@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText android:id="@+id/inputSearchP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search products.."
+        android:inputType="textVisiblePassword"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/SFPL_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputSearchP" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alon/AndroidStudioProjects/FoodApp/app/src/main/res/layout/search_for_product_layout.xml -->

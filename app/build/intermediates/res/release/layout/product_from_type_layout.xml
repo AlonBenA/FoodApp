@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search products.."
+        android:inputType="textVisiblePassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:id="@+id/PFT_Return"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="returnAndNotAdd"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/PFT_add"
+        android:layout_above="@+id/PFT_Return"
+        android:layout_alignLeft="@+id/PFT_Return"
+        android:layout_alignStart="@+id/PFT_Return"
+        android:onClick="addAllNew"/>
+
+    <ListView
+        android:id="@+id/pftl_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/PFT_add" />
+
+    <!-- List View -->
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alon/AndroidStudioProjects/FoodApp/app/src/main/res/layout/product_from_type_layout.xml -->

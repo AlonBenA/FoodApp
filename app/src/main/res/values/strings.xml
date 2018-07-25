@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">WC</string>
+    <string name="app_name2">what is Cooking</string>
+    <string name="hello_world">hello_world</string>
+    <string name="action_settings">Settings</string>
+    <string name="Product_prompt">Choose a Product</string>
+    <string name="units_prompt">Choose a unit of measure</string>
+
+
+</resources>

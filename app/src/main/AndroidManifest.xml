@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alon.foodapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userListActivity"
+            android:label="מוצרים שנבחרו"
+            android:theme="@style/AppTheme"
+         ></activity>
+        <activity
+            android:name=".activity.recipesListActivity"
+            android:label="רשימת מתכונים "
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.Search_Recipe_Activity"
+            android:label="חיפוש מתכון לפי שם"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.howToDoRecipe"
+            android:label="איך להכין את המוצר"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.Product_Type_list_Activity"
+            android:label="סוגי המוצרים"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.product_from_type_Activity"
+            android:label="המוצרים"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.SearchForAProductActivity"
+            android:label="חיפוש מוצרים"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity
+            android:name=".activity.whatMissToOrder"
+            android:label="מה חסר לך"
+            android:theme="@style/AppTheme"
+            ></activity>
+    </application>
+
+</manifest>

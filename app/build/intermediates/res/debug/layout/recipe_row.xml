@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <!--
+    <ImageView android:id="@+id/ImageSearch"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:background="@drawable/space"
+        android:layout_alignLeft="@+id/seeMissProButton"
+        android:layout_alignStart="@+id/seeMissProButton"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignBottom="@+id/recipesNameView" />
+-->
+
+    <TextView
+        android:id="@+id/recipesNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipes Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seeMissProButton"
+        android:background="@drawable/cart"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/green"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alon/AndroidStudioProjects/FoodApp/app/src/main/res/layout/recipe_row.xml -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alon.foodapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.alon.foodapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.alon.foodapp.userListActivity"
+            android:label="userList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.recipesListActivity"
+            android:label="recipesList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.product_list_Activity"
+            android:label="product_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.howToDoRecipe"
+            android:label="howToDoRecipe"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.Product_Type_list_Activity"
+            android:label="Product_Type_list_Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.product_from_type_Activity"
+            android:label="product_from_type_Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.alon.foodapp.SearchForAProductActivity"
+            android:label="SearchForAProductActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

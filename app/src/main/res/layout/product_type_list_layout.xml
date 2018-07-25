@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background31">
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text=" "
+        android:id="@+id/ptl_add"
+        android:onClick="AddTheNewBySearch"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text=" "
+        android:id="@+id/ptl_Search"
+        android:onClick="AddTheNew"
+        android:layout_above="@+id/ptl_add"
+        android:layout_alignLeft="@+id/legumesButton"
+        android:layout_alignStart="@+id/legumesButton" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:text=" "
+        android:id="@+id/milkButton"
+        android:onClick="seeMilk"
+        android:layout_alignTop="@+id/fishButton"
+        android:layout_alignLeft="@+id/fruitsButton"
+        android:layout_alignStart="@+id/fruitsButton" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:text=" "
+        android:id="@+id/fishButton"
+        android:onClick="seeFish"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:text=" "
+        android:id="@+id/MeatButton"
+        android:onClick="seeMeat"
+        android:layout_alignTop="@+id/fishButton"
+        android:layout_toRightOf="@+id/fishButton"
+        android:layout_toEndOf="@+id/fishButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text=" "
+        android:id="@+id/fruitsButton"
+        android:onClick="seeFruit"
+        android:layout_below="@+id/milkButton"
+        android:layout_toLeftOf="@+id/fishButton"
+        android:layout_toStartOf="@+id/fishButton" />
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:text=" "
+        android:id="@+id/generalButton"
+        android:onClick="seeGeneral"
+        android:layout_alignBottom="@+id/fruitsButton"
+        android:layout_toLeftOf="@+id/VegetableButton"
+        android:layout_toRightOf="@+id/legumesButton"
+        android:layout_toEndOf="@+id/legumesButton" />
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:text=" "
+        android:id="@+id/VegetableButton"
+        android:onClick="seeVegetable"
+        android:layout_alignTop="@+id/generalButton"
+        android:layout_toRightOf="@+id/fishButton"
+        android:layout_alignRight="@+id/MeatButton"
+        android:layout_alignEnd="@+id/MeatButton" />
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:text=" "
+        android:id="@+id/legumesButton"
+        android:onClick="seeLegumes"
+        android:layout_below="@+id/fruitsButton"
+        android:layout_alignRight="@+id/fruitsButton"
+        android:layout_alignEnd="@+id/fruitsButton"
+        android:layout_alignLeft="@+id/fruitsButton"
+        android:layout_alignStart="@+id/fruitsButton"
+        android:layout_alignBottom="@+id/StaffButton" />
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:text="  "
+        android:id="@+id/StaffButton"
+        android:onClick="seeStaff"
+        android:layout_below="@+id/fruitsButton"
+        android:layout_toRightOf="@+id/fruitsButton"
+        android:layout_toLeftOf="@+id/VegetableButton"
+        android:layout_toStartOf="@+id/VegetableButton" />
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:text=" "
+        android:id="@+id/spicesButton"
+        android:onClick="seeSpices"
+        android:layout_below="@+id/VegetableButton"
+        android:layout_alignLeft="@+id/VegetableButton"
+        android:layout_alignStart="@+id/VegetableButton"
+        android:layout_alignRight="@+id/VegetableButton"
+        android:layout_alignEnd="@+id/VegetableButton" />
+
+</RelativeLayout>
